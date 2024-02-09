@@ -1,0 +1,39 @@
+#root {
+  padding-top: 76px;
+}
+
+body {
+  margin: 0;
+  font-family: "Mitr", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Mitr", sans-serif !important;
+}
+
+.bg-seeliefy {
+  background-color: #7f207e;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #a562a4 !important;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #a562a4 !important;
+}
+
+#exampleInputEmail::placeholder,
+#exampleInputName::placeholder,
+#messageBox::placeholder {
+  opacity: 0.5;
+}
+
+.col-custom {
+  flex: 0 0 auto;
+  width: 10.5% !important;
+}
