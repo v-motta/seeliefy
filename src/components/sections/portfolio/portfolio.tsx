@@ -1,16 +1,41 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 
-import meowch1 from "../../../assets/imgs/portfolio/meowch-image1.png";
-import meowch2 from "../../../assets/imgs/portfolio/meowch-image2.png";
-import meowch3 from "../../../assets/imgs/portfolio/meowch-image3.png";
+import flipphone from "../../../assets/imgs/portfolio/flip-phone.webp";
+import zombieworld from "../../../assets/imgs/portfolio/zombie-world.webp";
+import monstertruck from "../../../assets/imgs/portfolio/monster-trucks.webp";
+
+import meowch1 from "../../../assets/imgs/portfolio/meowch-1.webp";
+import meowch2 from "../../../assets/imgs/portfolio/meowch-2.webp";
+import meowch3 from "../../../assets/imgs/portfolio/meowch-3.webp";
 
 // remover esses 3 imports
-import image1 from "../../../assets/imgs/image1.webp";
-import image2 from "../../../assets/imgs/image2.webp";
-import image3 from "../../../assets/imgs/image3.webp";
+import pebolim1 from "../../../assets/imgs/portfolio/pebolim-1.webp";
+import pebolim2 from "../../../assets/imgs/portfolio/pebolim-2.webp";
+
+import garrafa1 from "../../../assets/imgs/portfolio/garrafa-1.webp";
+
+import hockey1 from "../../../assets/imgs/portfolio/hockey-1.webp";
+import hockey2 from "../../../assets/imgs/portfolio/hockey-2.webp";
+
+
 
 const PortfolioJSON = [
+  {
+    projetoName: "Hypercasuals",
+    images: [
+      {
+        image: flipphone,
+      },
+      {
+        image: zombieworld,
+      },
+      {
+        image: monstertruck,
+      },
+    ],
+  },
+
   {
     projetoName: "Meowch",
     images: [
@@ -28,16 +53,34 @@ const PortfolioJSON = [
 
   // adicionar o nome do projeto e as imagens
   {
-    projetoName: "Projeto2",
+    projetoName: "Pebolim",
     images: [
       {
-        image: image1,
+        image: pebolim1,
       },
       {
-        image: image2,
+        image: pebolim2,
+      },
+    ],
+  },
+
+  {
+    projetoName: "Garrafa",
+    images: [
+      {
+        image: garrafa1,
+      },
+    ],
+  },
+
+  {
+    projetoName: "Air hockey",
+    images: [
+      {
+        image: hockey1,
       },
       {
-        image: image3,
+        image: hockey2,
       },
     ],
   },
