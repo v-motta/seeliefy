@@ -91,7 +91,7 @@ const ClientesJSON = [
 
 function Customers() {
   return (
-    <div id="scrollspyHeading3" className="container">
+    <div id="scrollspyHeading3" className="container mt-5">
       <div className="row">
         <h1 className="text-center mb-3">Nossos Clientes</h1>
       </div>

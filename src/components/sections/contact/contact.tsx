@@ -20,6 +20,7 @@ interface IFormInput {
 function Contact() {
   const [characters, setCharacters] = React.useState(0);
   const [userEmail, setUserEmail] = React.useState("");
+  const [subject, setSubject] = React.useState("bugdet");
 
   const {
     register,
@@ -28,6 +29,10 @@ function Contact() {
 
   const handleEmail = (event: any) => {
     setUserEmail(event.target.value);
+  };
+
+  const handleSubject = (event: any) => {
+    setSubject(event.target.value);
   };
 
   return (
@@ -47,7 +52,11 @@ function Contact() {
           className="d-flex flex-lg-row flex-column justify-content-center"
           id="contact"
           target="_blank"
-          action="https://formsubmit.co/contato@aurorabgs.com"
+          action={`https://formsubmit.co/${
+            subject === "carreira"
+              ? "jobs@seeliefy.com"
+              : "contato@seeliefy.com"
+          }`}
           method="POST"
         >
           <div className="col-lg-6 me-lg-5">
@@ -106,7 +115,8 @@ function Contact() {
                 id="exempleSelectSubject"
                 className="form-select gray-bg-2"
                 aria-label="Selecione o assunto"
-                {...register("subject")}
+                {...(register("subject"), { onchange: handleSubject })}
+                onChange={handleSubject}
               >
                 <option value="bugdet">Orçamento</option>
                 <option value="carreira">Trabalhe conosco</option>

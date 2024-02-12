@@ -9,7 +9,6 @@ import meowch1 from "../../../assets/imgs/portfolio/meowch-1.webp";
 import meowch2 from "../../../assets/imgs/portfolio/meowch-2.webp";
 import meowch3 from "../../../assets/imgs/portfolio/meowch-3.webp";
 
-// remover esses 3 imports
 import pebolim1 from "../../../assets/imgs/portfolio/pebolim-1.webp";
 import pebolim2 from "../../../assets/imgs/portfolio/pebolim-2.webp";
 
@@ -18,11 +17,11 @@ import garrafa1 from "../../../assets/imgs/portfolio/garrafa-1.webp";
 import hockey1 from "../../../assets/imgs/portfolio/hockey-1.webp";
 import hockey2 from "../../../assets/imgs/portfolio/hockey-2.webp";
 
-
-
 const PortfolioJSON = [
   {
     projetoName: "Hypercasuals",
+    title: "First slide label",
+    subtitle: "Some representative placeholder content for the first slide.",
     images: [
       {
         image: flipphone,
@@ -38,6 +37,8 @@ const PortfolioJSON = [
 
   {
     projetoName: "Meowch",
+    title: "First slide label",
+    subtitle: "Some representative placeholder content for the first slide.",
     images: [
       {
         image: meowch1,
@@ -51,9 +52,10 @@ const PortfolioJSON = [
     ],
   },
 
-  // adicionar o nome do projeto e as imagens
   {
     projetoName: "Pebolim",
+    title: "First slide label",
+    subtitle: "Some representative placeholder content for the first slide.",
     images: [
       {
         image: pebolim1,
@@ -66,6 +68,8 @@ const PortfolioJSON = [
 
   {
     projetoName: "Garrafa",
+    title: "First slide label",
+    subtitle: "Some representative placeholder content for the first slide.",
     images: [
       {
         image: garrafa1,
@@ -75,6 +79,8 @@ const PortfolioJSON = [
 
   {
     projetoName: "Air hockey",
+    title: "First slide label",
+    subtitle: "Some representative placeholder content for the first slide.",
     images: [
       {
         image: hockey1,
@@ -112,26 +118,19 @@ function Portifolio() {
         </ul>
         <div id="carouselExampleIndicators2" className="carousel slide">
           <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators2"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators2"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators2"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
+            {PortfolioJSON.filter((item) => item.projetoName === project).map(
+              (item) =>
+                item.images.map((image, index) => (
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide-to={index}
+                    className={index === 0 ? "active" : ""}
+                    aria-current="true"
+                    aria-label={`Slide ${index + 1}`}
+                  ></button>
+                ))
+            )}
           </div>
 
           {/* começo do carousel */}
@@ -147,6 +146,10 @@ function Portifolio() {
                       className="d-block w-100"
                       alt="..."
                     />
+                    <div className="carousel-caption d-none d-md-block">
+                      <h5>{projeto.title}</h5>
+                      <p>{projeto.subtitle}</p>
+                    </div>
                   </div>
                 ))
             )}
