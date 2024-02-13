@@ -17,6 +17,7 @@ import urbia from "../../../assets/imgs/urbia.webp";
 import vettura from "../../../assets/imgs/vettura.png";
 import hol from "../../../assets/imgs/hol.png";
 import aurora from "../../../assets/imgs/aurora.jpg";
+import salsa from "../../../assets/imgs/salsa.png";
 
 const ClientesJSON = [
   {
@@ -86,6 +87,10 @@ const ClientesJSON = [
   {
     img: aurora,
     name: "Aurora",
+  },
+  {
+    img: salsa,
+    name: "Salsa",
   },
 ];
 
