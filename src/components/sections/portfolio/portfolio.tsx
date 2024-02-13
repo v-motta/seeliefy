@@ -107,7 +107,7 @@ function Portifolio() {
           {PortfolioJSON.map((projeto) => (
             <li className="nav-item text-no-wrap" key={projeto.projetoName}>
               <button
-                className={`nav-link text-nowrap w-100 ${
+                className={`nav-link text-nowrap text-end w-100 ${
                   projeto.projetoName === project ? "active-project" : ""
                 }`}
                 aria-current="page"
