@@ -21,7 +21,8 @@ const PortfolioJSON = [
   {
     projetoName: "Hypercasuals",
     title: "Projetos Hypercasuais",
-    subtitle: "Nosso portfólio de projetos hypercasuais engloba diferentes projetos.",
+    subtitle:
+      "Nosso portfólio de projetos hypercasuais engloba diferentes projetos.",
     images: [
       {
         image: flipphone,
@@ -38,7 +39,8 @@ const PortfolioJSON = [
   {
     projetoName: "Meowch",
     title: "Meowch",
-    subtitle: "Projeto trabalhado junto a empresa Aurora Borealis, 2º lugar na maior gamejam do Brasil, no Big Festival Magalu",
+    subtitle:
+      "Projeto trabalhado junto a empresa Aurora Borealis, 2º lugar na maior gamejam do Brasil, no Big Festival Magalu",
     images: [
       {
         image: meowch1,
@@ -117,7 +119,7 @@ function Portifolio() {
           ))}
         </ul>
         <div id="carouselExampleIndicators2" className="carousel slide">
-          <div className="carousel-indicators">
+          <div className="carousel-indicators mb-0">
             {PortfolioJSON.filter((item) => item.projetoName === project).map(
               (item) =>
                 item.images.map((image, index) => (
@@ -143,10 +145,10 @@ function Portifolio() {
                   >
                     <img
                       src={image.image}
-                      className="d-block w-100"
+                      className="d-block rounded-4 w-100"
                       alt="..."
                     />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block pb-0">
                       <h5>{projeto.title}</h5>
                       <p>{projeto.subtitle}</p>
                     </div>

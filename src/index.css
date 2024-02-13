@@ -48,9 +48,9 @@ code {
 }
 
 .nav-tabs-custom .nav-item .active-project {
-  border-left: 1px solid #dee2e6;
-  border-bottom: 1px solid #dee2e6;
-  border-top: 1px solid #dee2e6;
-  border-right: 0;
-  border-radius: 0.375rem 0 0 0.375rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(127, 32, 126, 1) 200%
+  );
 }
