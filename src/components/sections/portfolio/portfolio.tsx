@@ -20,8 +20,8 @@ import hockey2 from "../../../assets/imgs/portfolio/hockey-2.webp";
 const PortfolioJSON = [
   {
     projetoName: "Hypercasuals",
-    title: "First slide label",
-    subtitle: "Some representative placeholder content for the first slide.",
+    title: "Projetos Hypercasuais",
+    subtitle: "Nosso portfólio de projetos hypercasuais engloba diferentes projetos.",
     images: [
       {
         image: flipphone,
