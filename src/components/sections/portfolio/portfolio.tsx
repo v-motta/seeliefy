@@ -54,8 +54,8 @@ const PortfolioJSON = [
 
   {
     projetoName: "Pebolim",
-    title: "First slide label",
-    subtitle: "Some representative placeholder content for the first slide.",
+    title: "Pebolim físico",
+    subtitle: "Projeto de pebolim físico feito com Arduíno e impressora 3D.",
     images: [
       {
         image: pebolim1,
