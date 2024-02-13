@@ -100,11 +100,11 @@ function Customers() {
       <div className="row">
         <h1 className="text-center mb-3">Nossos Clientes</h1>
       </div>
-      <div className="row gy-4">
+      <div className="row justify-content-center gy-4 px-3">
         {ClientesJSON.map((cliente, index) => (
           <div
             key={index}
-            className="col-custom d-flex justify-content-center align-items-center"
+            className="col-2 col-md-custom d-flex justify-content-center align-items-center"
           >
             <img
               src={cliente.img}

@@ -33,9 +33,11 @@ code {
   opacity: 0.5;
 }
 
-.col-custom {
-  flex: 0 0 auto;
-  width: 10.5% !important;
+@media (min-width: 768px) {
+  .col-md-custom {
+    flex: 0 0 auto;
+    width: 10.5% !important;
+  }
 }
 
 .nav-tabs-custom {
