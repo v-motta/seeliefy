@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce2e0fb5.css",
-    "main.js": "/static/js/main.536dfa9b.js",
+    "main.css": "/static/css/main.5dae8c72.css",
+    "main.js": "/static/js/main.d08e2284.js",
     "static/media/monster-trucks.webp": "/static/media/monster-trucks.accdda379e246a3b01ca.webp",
     "static/media/image2.webp": "/static/media/image2.0d8246e946731a34aa18.webp",
     "static/media/hockey-2.webp": "/static/media/hockey-2.c89a29b466ba0f83a732.webp",
@@ -36,11 +36,11 @@
     "static/media/br.png": "/static/media/br.16c07089f745a70e7d7a.png",
     "static/media/hol.png": "/static/media/hol.1bf268521ffc82c5798f.png",
     "index.html": "/index.html",
-    "main.ce2e0fb5.css.map": "/static/css/main.ce2e0fb5.css.map",
-    "main.536dfa9b.js.map": "/static/js/main.536dfa9b.js.map"
+    "main.5dae8c72.css.map": "/static/css/main.5dae8c72.css.map",
+    "main.d08e2284.js.map": "/static/js/main.d08e2284.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2e0fb5.css",
-    "static/js/main.536dfa9b.js"
+    "static/css/main.5dae8c72.css",
+    "static/js/main.d08e2284.js"
   ]
 }
