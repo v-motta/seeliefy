@@ -1,6 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 
+/* BBB */
+import corrida1 from "../../../assets/imgs/portfolio/BBB/corrida-1.webp";
+import corrida2 from "../../../assets/imgs/portfolio/BBB/corrida-2.webp";
+import corrida3 from "../../../assets/imgs/portfolio/BBB/corrida-3.webp";
+
 import flipphone from "../../../assets/imgs/portfolio/flip-phone.webp";
 import zombieworld from "../../../assets/imgs/portfolio/zombie-world.webp";
 import monstertruck from "../../../assets/imgs/portfolio/monster-trucks.webp";
@@ -19,10 +24,28 @@ import hockey2 from "../../../assets/imgs/portfolio/hockey-2.webp";
 
 const PortfolioJSON = [
   {
-    projetoName: "Hypercasuals",
-    title: "Projetos Hypercasuais",
+    projetoName: "BBB 23 - Corrida",
+    title: "BBB 23 - Simulador de corrida",
     subtitle:
-      "Nosso portfólio de projetos hypercasuais engloba diferentes projetos.",
+      "Jogo onde os participantes competiam pela maior pontuação valendo uma premiação pelo patrocinador.",
+    images: [
+      {
+        image: corrida1,
+      },
+      {
+        image: corrida2,
+      },
+      {
+        image: corrida3,
+      },
+    ],
+  },
+
+  {
+    projetoName: "BBB 23 - Boxe",
+    title: "BBB 23 - Boxe VR",
+    subtitle:
+      "Jogo de simulador de boxe em VR onde o participante do programa disputava contra lutadores famosos em sua versão virtual.",
     images: [
       {
         image: flipphone,
@@ -37,8 +60,8 @@ const PortfolioJSON = [
   },
 
   {
-    projetoName: "Meowch",
-    title: "Meowch",
+    projetoName: "Metaverso",
+    title: "Metaverso",
     subtitle:
       "Projeto trabalhado junto a empresa Aurora Borealis, 2º lugar na maior gamejam do Brasil, no Big Festival Magalu",
     images: [
