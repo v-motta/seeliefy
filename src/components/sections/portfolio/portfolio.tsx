@@ -102,8 +102,8 @@ function Portifolio() {
       <h1 id="scrollspyHeading2" className="text-center">
         Portifólio
       </h1>
-      <div className="container d-flex">
-        <ul className="nav nav-tabs-custom me-3">
+      <div className="container d-flex flex-column flex-sm-row">
+        <ul className="nav nav-tabs-custom me-0 me-sm-3 mb-3 mb-sm-0">
           {PortfolioJSON.map((projeto) => (
             <li className="nav-item text-no-wrap" key={projeto.projetoName}>
               <button
