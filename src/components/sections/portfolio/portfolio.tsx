@@ -70,8 +70,8 @@ const PortfolioJSON = [
 
   {
     projetoName: "Garrafa",
-    title: "First slide label",
-    subtitle: "Some representative placeholder content for the first slide.",
+    title: "Vire a Garrafa",
+    subtitle: "Jogo mobile hypercasual.",
     images: [
       {
         image: garrafa1,
@@ -81,8 +81,8 @@ const PortfolioJSON = [
 
   {
     projetoName: "Air hockey",
-    title: "First slide label",
-    subtitle: "Some representative placeholder content for the first slide.",
+    title: "Air Hockey",
+    subtitle: "Mesa de Air Hockey digital com controles feitos por Arduino.",
     images: [
       {
         image: hockey1,
