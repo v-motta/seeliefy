@@ -12,6 +12,11 @@ import metaverso1 from "../../../assets/imgs/portfolio/metaverso/metaverso-1.web
 import metaverso2 from "../../../assets/imgs/portfolio/metaverso/metaverso-2.webp";
 import metaverso3 from "../../../assets/imgs/portfolio/metaverso/metaverso-3.webp";
 
+/* Hacka Kids */
+import hacka20231 from "../../../assets/imgs/portfolio/hackakids/hacka2023-1.webp";
+import hacka20232 from "../../../assets/imgs/portfolio/hackakids/hacka2023-2.webp";
+import hacka20233 from "../../../assets/imgs/portfolio/hackakids/hacka2023-3.webp";
+
 const PortfolioJSON = [
   {
     projetoName: "BBB 23 - Corrida",
@@ -51,6 +56,42 @@ const PortfolioJSON = [
     title: "Metaverso",
     subtitle:
       "Outsourcing de criação de jogo online metaverso com programação multiplayer e sistema de mundos e terrenos com uso de personagens personalizados.",
+    images: [
+      {
+        image: metaverso1,
+      },
+      {
+        image: metaverso2,
+      },
+      {
+        image: metaverso3,
+      },
+    ],
+  },
+
+  {
+    projetoName: "Hacka Kids - 2023",
+    title: "Hacka Kids - 2023",
+    subtitle:
+      "Jogo online 4x4 de brincadeira de arremeçar bexigas. Voltado ao publico infantil no evento Hacka kids no Rio de Janeiro, onde as crianças jogam disputando medalhas ao participar.",
+    images: [
+      {
+        image: hacka20231,
+      },
+      {
+        image: hacka20232,
+      },
+      {
+        image: hacka20233,
+      },
+    ],
+  },
+
+  {
+    projetoName: "Hacka Kids - 2022",
+    title: "Hacka Kids - 2022",
+    subtitle:
+      "Jogo online 4x4 de brincadeira de arremeçar bexigas. Voltado ao publico infantil no evento Hacka kids no Rio de Janeiro, onde as crianças jogam disputando medalhas ao participar.",
     images: [
       {
         image: metaverso1,
