@@ -5,38 +5,31 @@ import React, { useState } from "react";
 import corrida1 from "../../../assets/imgs/portfolio/BBB/corrida-1.webp";
 import corrida2 from "../../../assets/imgs/portfolio/BBB/corrida-2.webp";
 import corrida3 from "../../../assets/imgs/portfolio/BBB/corrida-3.webp";
+import corrida4 from "../../../assets/imgs/portfolio/BBB/corrida-4.webp";
 
-import flipphone from "../../../assets/imgs/portfolio/flip-phone.webp";
-import zombieworld from "../../../assets/imgs/portfolio/zombie-world.webp";
-import monstertruck from "../../../assets/imgs/portfolio/monster-trucks.webp";
-
-import meowch1 from "../../../assets/imgs/portfolio/meowch-1.webp";
-import meowch2 from "../../../assets/imgs/portfolio/meowch-2.webp";
-import meowch3 from "../../../assets/imgs/portfolio/meowch-3.webp";
-
-import pebolim1 from "../../../assets/imgs/portfolio/pebolim-1.webp";
-import pebolim2 from "../../../assets/imgs/portfolio/pebolim-2.webp";
-
-import garrafa1 from "../../../assets/imgs/portfolio/garrafa-1.webp";
-
-import hockey1 from "../../../assets/imgs/portfolio/hockey-1.webp";
-import hockey2 from "../../../assets/imgs/portfolio/hockey-2.webp";
+/* Metaverso */
+import metaverso1 from "../../../assets/imgs/portfolio/metaverso/metaverso-1.webp";
+import metaverso2 from "../../../assets/imgs/portfolio/metaverso/metaverso-2.webp";
+import metaverso3 from "../../../assets/imgs/portfolio/metaverso/metaverso-3.webp";
 
 const PortfolioJSON = [
   {
     projetoName: "BBB 23 - Corrida",
     title: "BBB 23 - Simulador de corrida",
     subtitle:
-      "Jogo onde os participantes competiam pela maior pontuação valendo uma premiação pelo patrocinador.",
+      "Outsourcing de um jogo onde os participantes competiam pela maior pontuação valendo uma premiação pelo patrocinador.",
     images: [
       {
         image: corrida1,
       },
       {
+        image: corrida3,
+      },
+      {
         image: corrida2,
       },
       {
-        image: corrida3,
+        image: corrida4,
       },
     ],
   },
@@ -45,16 +38,10 @@ const PortfolioJSON = [
     projetoName: "BBB 23 - Boxe",
     title: "BBB 23 - Boxe VR",
     subtitle:
-      "Jogo de simulador de boxe em VR onde o participante do programa disputava contra lutadores famosos em sua versão virtual.",
+      "Outsourcing de um jogo de simulador de boxe em VR onde o participante do programa disputava contra lutadores famosos em sua versão virtual.",
     images: [
       {
-        image: flipphone,
-      },
-      {
-        image: zombieworld,
-      },
-      {
-        image: monstertruck,
+        image: corrida1,
       },
     ],
   },
@@ -63,55 +50,16 @@ const PortfolioJSON = [
     projetoName: "Metaverso",
     title: "Metaverso",
     subtitle:
-      "Projeto trabalhado junto a empresa Aurora Borealis, 2º lugar na maior gamejam do Brasil, no Big Festival Magalu",
+      "Outsourcing de criação de jogo online metaverso com programação multiplayer e sistema de mundos e terrenos com uso de personagens personalizados.",
     images: [
       {
-        image: meowch1,
+        image: metaverso1,
       },
       {
-        image: meowch2,
+        image: metaverso2,
       },
       {
-        image: meowch3,
-      },
-    ],
-  },
-
-  {
-    projetoName: "Pebolim",
-    title: "Pebolim físico",
-    subtitle: "Projeto de pebolim físico feito com Arduíno e impressora 3D.",
-    images: [
-      {
-        image: pebolim1,
-      },
-      {
-        image: pebolim2,
-      },
-    ],
-  },
-
-  {
-    projetoName: "Garrafa",
-    title: "Vire a Garrafa",
-    subtitle: "Jogo mobile hypercasual.",
-    images: [
-      {
-        image: garrafa1,
-      },
-    ],
-  },
-
-  {
-    projetoName: "Air hockey",
-    title: "Air Hockey",
-    subtitle: "Mesa de Air Hockey digital com controles feitos por Arduino.",
-    images: [
-      {
-        image: hockey1,
-      },
-      {
-        image: hockey2,
+        image: metaverso3,
       },
     ],
   },
