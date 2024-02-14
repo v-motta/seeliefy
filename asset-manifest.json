@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5dae8c72.css",
-    "main.js": "/static/js/main.ad8bd67f.js",
+    "main.js": "/static/js/main.12426c34.js",
     "static/media/monster-trucks.webp": "/static/media/monster-trucks.accdda379e246a3b01ca.webp",
     "static/media/image2.webp": "/static/media/image2.0d8246e946731a34aa18.webp",
     "static/media/hockey-2.webp": "/static/media/hockey-2.c89a29b466ba0f83a732.webp",
@@ -12,12 +12,15 @@
     "static/media/hockey-1.webp": "/static/media/hockey-1.3c20fa56d4bcd519cc32.webp",
     "static/media/flip-phone.webp": "/static/media/flip-phone.7eb9621c2e7a45b729de.webp",
     "static/media/garrafa-1.webp": "/static/media/garrafa-1.5ea75ef8562cba4a3978.webp",
+    "static/media/corrida-1.webp": "/static/media/corrida-1.23a6968fd5066e95854a.webp",
     "static/media/vettura.png": "/static/media/vettura.84b6f77cbcfaaa73f4cf.png",
+    "static/media/corrida-3.webp": "/static/media/corrida-3.f17320a2fcbc925ce146.webp",
     "static/media/bbb.png": "/static/media/bbb.40066374f356307bd00f.png",
     "static/media/sbt.png": "/static/media/sbt.e6bd3bbc272683c0c759.png",
     "static/media/pebolim-1.webp": "/static/media/pebolim-1.8b285ff51110dbce4014.webp",
     "static/media/globo.png": "/static/media/globo.d27fc66c2b89f9127bd1.png",
     "static/media/magnata.png": "/static/media/magnata.b168cf2e4a95432e3a0d.png",
+    "static/media/corrida-2.webp": "/static/media/corrida-2.58a05cc97de7ec65c859.webp",
     "static/media/aurora-borealis.png": "/static/media/aurora-borealis.224478305ee04695821b.png",
     "static/media/salsa.png": "/static/media/salsa.a2d39d3b348a9658be9d.png",
     "static/media/meowch-2.webp": "/static/media/meowch-2.c5a7d0489103349bdb70.webp",
@@ -37,10 +40,10 @@
     "static/media/hol.png": "/static/media/hol.1bf268521ffc82c5798f.png",
     "index.html": "/index.html",
     "main.5dae8c72.css.map": "/static/css/main.5dae8c72.css.map",
-    "main.ad8bd67f.js.map": "/static/js/main.ad8bd67f.js.map"
+    "main.12426c34.js.map": "/static/js/main.12426c34.js.map"
   },
   "entrypoints": [
     "static/css/main.5dae8c72.css",
-    "static/js/main.ad8bd67f.js"
+    "static/js/main.12426c34.js"
   ]
 }
