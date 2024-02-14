@@ -38,7 +38,7 @@ const PortfolioJSON = [
 
   {
     projetoName: "Meowch",
-    title: "Meowch",
+    title: "Meowch o gato",
     subtitle:
       "Projeto trabalhado junto a empresa Aurora Borealis, 2º lugar na maior gamejam do Brasil, no Big Festival Magalu",
     images: [
