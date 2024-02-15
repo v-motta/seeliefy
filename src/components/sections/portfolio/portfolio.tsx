@@ -110,7 +110,7 @@ const PortfolioJSON = [
 ];
 
 function Portifolio() {
-  const [project, setProject] = useState("Meowch");
+  const [project, setProject] = useState("BBB 23 - Corrida");
 
   return (
     <>
