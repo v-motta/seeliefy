@@ -25,6 +25,12 @@ import kidplay1 from "../../../assets/imgs/portfolio/kidplay/kidplay-1.webp";
 import kidplay2 from "../../../assets/imgs/portfolio/kidplay/kidplay-2.webp";
 import kidplay3 from "../../../assets/imgs/portfolio/kidplay/kidplay-3.webp";
 
+/* Hypercasual */
+import hypercasual1 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-1.webp";
+import hypercasual2 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-2.webp";
+import hypercasual3 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-3.webp";
+import hypercasual4 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-4.webp";
+
 const PortfolioJSON = [
   /*BBB 23*/
   {
@@ -129,6 +135,28 @@ const PortfolioJSON = [
       },
       {
         image: kidplay3,
+      },
+    ],
+  },
+
+  /*Hypercasuais*/
+  {
+    projetoName: "Hypercasuais",
+    title: "Hypercasuais",
+    subtitle:
+      "Trabalho feito em conjunto com estudio parceiro, com entrega de diversos jogos Hypercasuais.",
+    images: [
+      {
+        image: hypercasual1,
+      },
+      {
+        image: hypercasual2,
+      },
+      {
+        image: hypercasual3,
+      },
+      {
+        image: hypercasual4,
       },
     ],
   },
