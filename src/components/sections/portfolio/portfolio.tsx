@@ -31,6 +31,15 @@ import hypercasual2 from "../../../assets/imgs/portfolio/hypercasual/hypercasual
 import hypercasual3 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-3.webp";
 import hypercasual4 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-4.webp";
 
+/* Brazilian Truck Simulator */
+import bts1 from "../../../assets/imgs/portfolio/simuladores/bts-1.webp";
+import bts2 from "../../../assets/imgs/portfolio/simuladores/bts-2.webp";
+import bts3 from "../../../assets/imgs/portfolio/simuladores/bts-3.webp";
+
+/* Brazilian Farm Simulator */
+import bfs1 from "../../../assets/imgs/portfolio/simuladores/bfs-1.webp";
+import bfs2 from "../../../assets/imgs/portfolio/simuladores/bfs-2.webp";
+
 const PortfolioJSON = [
   /*BBB 23*/
   {
@@ -157,6 +166,40 @@ const PortfolioJSON = [
       },
       {
         image: hypercasual4,
+      },
+    ],
+  },
+
+  /*Brazilian Truck Simulator*/
+  {
+    projetoName: "Brazilian Truck Simulator",
+    title: "Brazilian Truck Simulator",
+    subtitle:
+      "Simulador de viagem de caminhões multiplayer, unindo o Brasil em um só lugar.",
+    images: [
+      {
+        image: bts1,
+      },
+      {
+        image: bts2,
+      },
+      {
+        image: bts3,
+      },
+    ],
+  },
+
+  /*Brazilian Farm Simulator*/
+  {
+    projetoName: "Brazilian Farm Simulator",
+    title: "Brazilian Farm Simulator",
+    subtitle: "Simulador de colheita multiplayer mobile.",
+    images: [
+      {
+        image: bfs1,
+      },
+      {
+        image: bfs2,
       },
     ],
   },
