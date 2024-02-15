@@ -2,10 +2,11 @@
 import React, { useState } from "react";
 
 /* BBB */
-import corrida1 from "../../../assets/imgs/portfolio/BBB/corrida-1.webp";
-import corrida2 from "../../../assets/imgs/portfolio/BBB/corrida-2.webp";
-import corrida3 from "../../../assets/imgs/portfolio/BBB/corrida-3.webp";
-import corrida4 from "../../../assets/imgs/portfolio/BBB/corrida-4.webp";
+import corrida1 from "../../../assets/imgs/portfolio/bbb/corrida-1.webp";
+import corrida2 from "../../../assets/imgs/portfolio/bbb/corrida-2.webp";
+import corrida3 from "../../../assets/imgs/portfolio/bbb/corrida-3.webp";
+import corrida4 from "../../../assets/imgs/portfolio/bbb/corrida-4.webp";
+import boxe1 from "../../../assets/imgs/portfolio/bbb/boxe-1.webp";
 
 /* Metaverso */
 import metaverso1 from "../../../assets/imgs/portfolio/metaverso/metaverso-1.webp";
@@ -16,8 +17,16 @@ import metaverso3 from "../../../assets/imgs/portfolio/metaverso/metaverso-3.web
 import hacka20231 from "../../../assets/imgs/portfolio/hackakids/hacka2023-1.webp";
 import hacka20232 from "../../../assets/imgs/portfolio/hackakids/hacka2023-2.webp";
 import hacka20233 from "../../../assets/imgs/portfolio/hackakids/hacka2023-3.webp";
+import hacka20221 from "../../../assets/imgs/portfolio/hackakids/hacka2022-1.webp";
+import hacka20222 from "../../../assets/imgs/portfolio/hackakids/hacka2022-2.webp";
+
+/* Hacka Kids */
+import kidplay1 from "../../../assets/imgs/portfolio/kidplay/kidplay-1.webp";
+import kidplay2 from "../../../assets/imgs/portfolio/kidplay/kidplay-2.webp";
+import kidplay3 from "../../../assets/imgs/portfolio/kidplay/kidplay-3.webp";
 
 const PortfolioJSON = [
+  /*BBB 23*/
   {
     projetoName: "BBB 23 - Corrida",
     title: "BBB 23 - Simulador de corrida",
@@ -39,6 +48,7 @@ const PortfolioJSON = [
     ],
   },
 
+  /*BBB22*/
   {
     projetoName: "BBB 23 - Boxe",
     title: "BBB 23 - Boxe VR",
@@ -46,11 +56,12 @@ const PortfolioJSON = [
       "Outsourcing de um jogo de simulador de boxe em VR onde o participante do programa disputava contra lutadores famosos em sua versão virtual.",
     images: [
       {
-        image: corrida1,
+        image: boxe1,
       },
     ],
   },
 
+  /*Metaverso*/
   {
     projetoName: "Metaverso",
     title: "Metaverso",
@@ -69,6 +80,7 @@ const PortfolioJSON = [
     ],
   },
 
+  /*Hacka Kids - 2023*/
   {
     projetoName: "Hacka Kids - 2023",
     title: "Hacka Kids - 2023",
@@ -87,20 +99,36 @@ const PortfolioJSON = [
     ],
   },
 
+  /*Hacka Kids - 2022*/
   {
     projetoName: "Hacka Kids - 2022",
     title: "Hacka Kids - 2022",
-    subtitle:
-      "Jogo online 4x4 de brincadeira de arremeçar bexigas. Voltado ao publico infantil no evento Hacka kids no Rio de Janeiro, onde as crianças jogam disputando medalhas ao participar.",
+    subtitle: "Identidade visual das peças gráficas do evento",
     images: [
       {
-        image: metaverso1,
+        image: hacka20221,
       },
       {
-        image: metaverso2,
+        image: hacka20222,
+      },
+    ],
+  },
+
+  /*KidPlay*/
+  {
+    projetoName: "KidPlay",
+    title: "KidPlay",
+    subtitle:
+      "Criação de brinquedos variados ergonomicos, estimulantes e seguros para crianças.",
+    images: [
+      {
+        image: kidplay1,
       },
       {
-        image: metaverso3,
+        image: kidplay2,
+      },
+      {
+        image: kidplay3,
       },
     ],
   },
