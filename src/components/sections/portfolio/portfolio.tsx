@@ -2,10 +2,11 @@
 import React, { useState } from "react";
 
 /* BBB */
-import corrida1 from "../../../assets/imgs/portfolio/BBB/corrida-1.webp";
-import corrida2 from "../../../assets/imgs/portfolio/BBB/corrida-2.webp";
-import corrida3 from "../../../assets/imgs/portfolio/BBB/corrida-3.webp";
-import corrida4 from "../../../assets/imgs/portfolio/BBB/corrida-4.webp";
+import corrida1 from "../../../assets/imgs/portfolio/bbb/corrida-1.webp";
+import corrida2 from "../../../assets/imgs/portfolio/bbb/corrida-2.webp";
+import corrida3 from "../../../assets/imgs/portfolio/bbb/corrida-3.webp";
+import corrida4 from "../../../assets/imgs/portfolio/bbb/corrida-4.webp";
+import boxe1 from "../../../assets/imgs/portfolio/bbb/boxe-1.webp";
 
 /* Metaverso */
 import metaverso1 from "../../../assets/imgs/portfolio/metaverso/metaverso-1.webp";
@@ -18,6 +19,11 @@ import hacka20232 from "../../../assets/imgs/portfolio/hackakids/hacka2023-2.web
 import hacka20233 from "../../../assets/imgs/portfolio/hackakids/hacka2023-3.webp";
 import hacka20221 from "../../../assets/imgs/portfolio/hackakids/hacka2022-1.webp";
 import hacka20222 from "../../../assets/imgs/portfolio/hackakids/hacka2022-2.webp";
+
+/* Hacka Kids */
+import kidplay1 from "../../../assets/imgs/portfolio/kidplay/kidplay-1.webp";
+import kidplay2 from "../../../assets/imgs/portfolio/kidplay/kidplay-2.webp";
+import kidplay3 from "../../../assets/imgs/portfolio/kidplay/kidplay-3.webp";
 
 const PortfolioJSON = [
   /*BBB 23*/
@@ -50,7 +56,7 @@ const PortfolioJSON = [
       "Outsourcing de um jogo de simulador de boxe em VR onde o participante do programa disputava contra lutadores famosos em sua versão virtual.",
     images: [
       {
-        image: corrida1,
+        image: boxe1,
       },
     ],
   },
@@ -104,6 +110,25 @@ const PortfolioJSON = [
       },
       {
         image: hacka20222,
+      },
+    ],
+  },
+
+  /*KidPlay*/
+  {
+    projetoName: "KidPlay",
+    title: "KidPlay",
+    subtitle:
+      "Criação de brinquedos variados ergonomicos, estimulantes e seguros para crianças.",
+    images: [
+      {
+        image: kidplay1,
+      },
+      {
+        image: kidplay2,
+      },
+      {
+        image: kidplay3,
       },
     ],
   },
