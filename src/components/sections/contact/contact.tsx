@@ -149,7 +149,10 @@ function Contact() {
           </div>
 
           <div className="col-lg-4">
-            <label htmlFor="messageBox" className="form-label invisible">
+            <label
+              htmlFor="messageBox"
+              className="form-label invisible d-none d-lg-block"
+            >
               Escreva sua mensagem
             </label>
             <textarea
