@@ -1,8 +1,10 @@
 import React from "react";
 
-import image1 from "../../../assets/imgs/image1.webp";
-import image2 from "../../../assets/imgs/image2.webp";
-import image3 from "../../../assets/imgs/image3.webp";
+import banner1 from "../../../assets/imgs/banner-1.webp";
+import banner2 from "../../../assets/imgs/banner-2.webp";
+import banner3 from "../../../assets/imgs/banner-3.webp";
+import banner4 from "../../../assets/imgs/banner-4.webp";
+import banner5 from "../../../assets/imgs/banner-5.webp";
 
 function Carousel() {
   return (
@@ -28,16 +30,34 @@ function Carousel() {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#scrollspyHeading1"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#scrollspyHeading1"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={image1} className="d-block w-100" alt="..." />
+          <img src={banner1} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={image2} className="d-block w-100" alt="..." />
+          <img src={banner2} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={image3} className="d-block w-100" alt="..." />
+          <img src={banner3} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={banner4} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={banner5} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
