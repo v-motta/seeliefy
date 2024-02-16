@@ -1,6 +1,6 @@
 import React from "react";
 
-import banner1 from "../../../assets/imgs/banner-1.webp";
+import banner1 from "../../../assets/imgs/banner-1.png";
 import banner2 from "../../../assets/imgs/banner-2.webp";
 import banner3 from "../../../assets/imgs/banner-3.webp";
 import banner4 from "../../../assets/imgs/banner-4.webp";
