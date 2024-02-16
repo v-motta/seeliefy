@@ -17,13 +17,19 @@ import metaverso3 from "../../../assets/imgs/portfolio/metaverso/metaverso-3.web
 import hacka20231 from "../../../assets/imgs/portfolio/hackakids/hacka2023-1.webp";
 import hacka20232 from "../../../assets/imgs/portfolio/hackakids/hacka2023-2.webp";
 import hacka20233 from "../../../assets/imgs/portfolio/hackakids/hacka2023-3.webp";
+import hacka20234 from "../../../assets/imgs/portfolio/hackakids/hacka2023-4.webp";
+import hacka20235 from "../../../assets/imgs/portfolio/hackakids/hacka2023-5.webp";
+import hacka20236 from "../../../assets/imgs/portfolio/hackakids/hacka2023-6.webp";
 import hacka20221 from "../../../assets/imgs/portfolio/hackakids/hacka2022-1.webp";
 import hacka20222 from "../../../assets/imgs/portfolio/hackakids/hacka2022-2.webp";
 
-/* Hacka Kids */
+/* Kidplay */
 import kidplay1 from "../../../assets/imgs/portfolio/kidplay/kidplay-1.webp";
 import kidplay2 from "../../../assets/imgs/portfolio/kidplay/kidplay-2.webp";
 import kidplay3 from "../../../assets/imgs/portfolio/kidplay/kidplay-3.webp";
+import kidplay4 from "../../../assets/imgs/portfolio/kidplay/kidplay-4.webp";
+import kidplay5 from "../../../assets/imgs/portfolio/kidplay/kidplay-5.webp";
+import kidplay6 from "../../../assets/imgs/portfolio/kidplay/kidplay-6.webp";
 
 /* Hypercasual */
 import hypercasual1 from "../../../assets/imgs/portfolio/hypercasual/hypercasual-1.webp";
@@ -39,6 +45,16 @@ import bts3 from "../../../assets/imgs/portfolio/simuladores/bts-3.webp";
 /* Brazilian Farm Simulator */
 import bfs1 from "../../../assets/imgs/portfolio/simuladores/bfs-1.webp";
 import bfs2 from "../../../assets/imgs/portfolio/simuladores/bfs-2.webp";
+
+/* Meowch */
+import meowch1 from "../../../assets/imgs/portfolio/meowch/meowch-1.webp";
+import meowch2 from "../../../assets/imgs/portfolio/meowch/meowch-2.webp";
+import meowch3 from "../../../assets/imgs/portfolio/meowch/meowch-3.webp";
+
+/* Rogue Masters */
+import rogue1 from "../../../assets/imgs/portfolio/rogue/rogue-1.webp";
+import rogue2 from "../../../assets/imgs/portfolio/rogue/rogue-2.webp";
+import rogue3 from "../../../assets/imgs/portfolio/rogue/rogue-3.webp";
 
 const PortfolioJSON = [
   /*BBB 23*/
@@ -106,10 +122,19 @@ const PortfolioJSON = [
         image: hacka20231,
       },
       {
+        image: hacka20235,
+      },
+      {
         image: hacka20232,
       },
       {
+        image: hacka20234,
+      },
+      {
         image: hacka20233,
+      },
+      {
+        image: hacka20236,
       },
     ],
   },
@@ -137,7 +162,16 @@ const PortfolioJSON = [
       "Criação de brinquedos variados ergonomicos, estimulantes e seguros para crianças.",
     images: [
       {
+        image: kidplay4,
+      },
+      {
         image: kidplay1,
+      },
+      {
+        image: kidplay5,
+      },
+      {
+        image: kidplay6,
       },
       {
         image: kidplay2,
@@ -200,6 +234,63 @@ const PortfolioJSON = [
       },
       {
         image: bfs2,
+      },
+    ],
+  },
+
+  /*Meowch*/
+  {
+    projetoName: "Meowch",
+    title: "Meowch",
+    subtitle:
+      "Outsourcing de um jogo plataforma, 2º lugar gamejam Big Festival Magalu.",
+    images: [
+      {
+        image: meowch1,
+      },
+      {
+        image: meowch2,
+      },
+      {
+        image: meowch3,
+      },
+    ],
+  },
+
+  /*Rogue Masters*/
+  {
+    projetoName: "Rogue Masters",
+    title: "Rogue Masters",
+    subtitle:
+      "Outsourcing de arte conceitual e criação de modelos 3D em um souls-like.",
+    images: [
+      {
+        image: rogue1,
+      },
+      {
+        image: rogue2,
+      },
+      {
+        image: rogue3,
+      },
+    ],
+  },
+
+  /*World Of Shades*/
+  {
+    projetoName: "World Of Shades",
+    title: "World Of Shades",
+    subtitle:
+      "Outsourcing de arte conceitual e criação de modelos 3D em um souls-like.",
+    images: [
+      {
+        image: rogue1,
+      },
+      {
+        image: rogue2,
+      },
+      {
+        image: rogue3,
       },
     ],
   },
