@@ -2,6 +2,7 @@ import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Navbar from "./components/navbar/navbar";
 import Carousel from "./components/sections/carousel/carousel";
@@ -9,6 +10,7 @@ import Customers from "./components/sections/customers/customers";
 import About from "./components/sections/about/about";
 import Portifolio from "./components/sections/portfolio/portfolio";
 import Contact from "./components/sections/contact/contact";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Portifolio />
         <Customers />
         <Contact />
+        <Footer />
       </div>
     </>
   );
