@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5dae8c72.css",
-    "main.js": "/static/js/main.14a095d0.js",
+    "main.js": "/static/js/main.f97a719f.js",
     "static/media/hypercasual-3.webp": "/static/media/hypercasual-3.6ef3e1ca29cce3432843.webp",
     "static/media/kidplay-4.webp": "/static/media/kidplay-4.762fcbb24c74e0bf8639.webp",
     "static/media/bfs-1.webp": "/static/media/bfs-1.95610bc1f67fce69dbbe.webp",
@@ -29,15 +29,15 @@
     "static/media/globo.png": "/static/media/globo.d27fc66c2b89f9127bd1.png",
     "static/media/corrida-4.webp": "/static/media/corrida-4.82c1491b313a365b8e31.webp",
     "static/media/bts-1.webp": "/static/media/bts-1.dffce8bc12dff5f74895.webp",
-    "static/media/kidplay-1.webp": "/static/media/kidplay-1.c413a3b731bdb9b46295.webp",
     "static/media/rogue-1.webp": "/static/media/rogue-1.b9ca26105c7386dadcd8.webp",
     "static/media/hacka2023-1.webp": "/static/media/hacka2023-1.38afade48861e6ace657.webp",
     "static/media/bts-2.webp": "/static/media/bts-2.60d1679e13288164558a.webp",
     "static/media/metaverso-1.webp": "/static/media/metaverso-1.57bccc3e22c73a7dff8a.webp",
     "static/media/metaverso-3.webp": "/static/media/metaverso-3.66ee516136fca0a65e15.webp",
-    "static/media/kidplay-3.webp": "/static/media/kidplay-3.4d86050c6881ee096f82.webp",
-    "static/media/kidplay-2.webp": "/static/media/kidplay-2.e53d3266dcd67bcd0ae2.webp",
+    "static/media/kidplay-1.webp": "/static/media/kidplay-1.21a566fd46f373eda8f2.webp",
+    "static/media/kidplay-3.webp": "/static/media/kidplay-3.ec4a3cc19551b3fcddba.webp",
     "static/media/hacka2023-2.webp": "/static/media/hacka2023-2.5983a0d3ad85894d8384.webp",
+    "static/media/kidplay-2.webp": "/static/media/kidplay-2.08e415f15f92fbd12923.webp",
     "static/media/bts-3.webp": "/static/media/bts-3.5baf666ddc22309fa313.webp",
     "static/media/boxe-1.webp": "/static/media/boxe-1.06983bab4b962d5ca6d4.webp",
     "static/media/magnata.png": "/static/media/magnata.b168cf2e4a95432e3a0d.png",
@@ -53,8 +53,8 @@
     "static/media/meowch-2.webp": "/static/media/meowch-2.9d224303945032c7746a.webp",
     "static/media/interlagos.jpg": "/static/media/interlagos.8f11c67f5564317a955f.jpg",
     "static/media/meowch-1.webp": "/static/media/meowch-1.9653d5e5c5ebee56c46d.webp",
+    "static/media/banner-1.png": "/static/media/banner-1.5975bbebbec40b3120fc.png",
     "static/media/lollapalooza.png": "/static/media/lollapalooza.1c1c10abcc8e069387e1.png",
-    "static/media/banner-1.webp": "/static/media/banner-1.c89b2ed8335e134e7c3e.webp",
     "static/media/nestle.png": "/static/media/nestle.3310239437330fef6262.png",
     "static/media/67-bits.png": "/static/media/67-bits.52bbdeb0dfb4bb041f8c.png",
     "static/media/urbia.webp": "/static/media/urbia.3bd916488740e6d72aa7.webp",
@@ -65,10 +65,10 @@
     "static/media/hol.png": "/static/media/hol.1bf268521ffc82c5798f.png",
     "index.html": "/index.html",
     "main.5dae8c72.css.map": "/static/css/main.5dae8c72.css.map",
-    "main.14a095d0.js.map": "/static/js/main.14a095d0.js.map"
+    "main.f97a719f.js.map": "/static/js/main.f97a719f.js.map"
   },
   "entrypoints": [
     "static/css/main.5dae8c72.css",
-    "static/js/main.14a095d0.js"
+    "static/js/main.f97a719f.js"
   ]
 }
