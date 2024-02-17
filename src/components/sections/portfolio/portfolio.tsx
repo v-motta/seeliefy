@@ -38,7 +38,7 @@ function Portifolio() {
                     data-bs-slide-to={index}
                     className={index === 0 ? "active" : ""}
                     aria-current="true"
-                    aria-label={`Slide ${index + 1}`}
+                    aria-label={`Slide ${index++}`}
                   ></button>
                 ))
             )}
