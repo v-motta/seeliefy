@@ -108,10 +108,10 @@ export const PortfolioJSON = [
     ],
   },
 
-  /*Hacka Kids - 2023*/
+  /*Hacka Kids 8*/
   {
-    projetoName: "Hacka Kids - 2023",
-    title: "Hacka Kids - 2023",
+    projetoName: "Hacka Kids 8",
+    title: "Hacka Kids 8",
     subtitle:
       "Jogo online 4x4 de brincadeira de arremeçar bexigas. Voltado ao publico infantil no evento Hacka kids no Rio de Janeiro, onde as crianças jogam disputando medalhas ao participar.",
     images: [
@@ -136,10 +136,10 @@ export const PortfolioJSON = [
     ],
   },
 
-  /*Hacka Kids - 2022*/
+  /*Hacka Kids 7*/
   {
-    projetoName: "Hacka Kids - 2022",
-    title: "Hacka Kids - 2022",
+    projetoName: "Hacka Kids 7",
+    title: "Hacka Kids 7",
     subtitle: "Identidade visual das peças gráficas do evento",
     images: [
       {

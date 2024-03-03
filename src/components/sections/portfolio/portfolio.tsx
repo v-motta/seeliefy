@@ -1,10 +1,11 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 
 import { PortfolioJSON } from "./list";
 
 function Portifolio() {
   const [project, setProject] = useState("BBB 23 - Corrida");
+
+  const projectReplaced = project.replace(/[- ]/g, "");
 
   return (
     <>
@@ -27,29 +28,33 @@ function Portifolio() {
             </li>
           ))}
         </ul>
-        <div id="carouselExampleIndicators2" className="carousel slide">
+        <div
+          id="carouselExampleIndicators2"
+          className="carousel slide"
+          key={projectReplaced}
+        >
           <div className="carousel-indicators mb-0">
             {PortfolioJSON.filter((item) => item.projetoName === project).map(
               (item) =>
-                item.images.map((image, index) => (
+                item.images.map((_image, index) => (
                   <button
+                    key={index}
                     type="button"
                     data-bs-target="#carouselExampleIndicators2"
                     data-bs-slide-to={index}
                     className={index === 0 ? "active" : ""}
                     aria-current="true"
-                    aria-label={`Slide ${index++}`}
+                    aria-label={`Slide ${index + 1}`}
                   ></button>
                 ))
             )}
           </div>
-
-          {/* começo do carousel */}
           <div className="carousel-inner">
             {PortfolioJSON.filter((item) => item.projetoName === project).map(
               (projeto) =>
                 projeto.images.map((image, index) => (
                   <div
+                    key={index}
                     className={`carousel-item ${index === 0 ? "active" : ""}`}
                   >
                     <img

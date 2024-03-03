@@ -115,7 +115,7 @@ function Contact() {
                 id="exempleSelectSubject"
                 className="form-select gray-bg-2"
                 aria-label="Selecione o assunto"
-                {...(register("subject"), { onchange: handleSubject })}
+                {...(register("subject"), { onChange: handleSubject })}
                 onChange={handleSubject}
               >
                 <option value="bugdet">Orçamento</option>
