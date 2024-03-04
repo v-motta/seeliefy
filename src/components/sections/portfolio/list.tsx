@@ -272,23 +272,4 @@ export const PortfolioJSON = [
       },
     ],
   },
-
-  /*World Of Shades*/
-  {
-    projetoName: "World Of Shades",
-    title: "World Of Shades",
-    subtitle:
-      "Outsourcing de arte conceitual e criação de modelos 3D em um souls-like.",
-    images: [
-      {
-        image: rogue1,
-      },
-      {
-        image: rogue2,
-      },
-      {
-        image: rogue3,
-      },
-    ],
-  },
 ];
