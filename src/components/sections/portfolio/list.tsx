@@ -240,7 +240,7 @@ export const PortfolioJSON = [
     projetoName: "Meowch",
     title: "Meowch",
     subtitle:
-      "Outsourcing de um jogo plataforma, 2º lugar gamejam Big Festival Magalu.",
+      "Outsourcing de um jogo plataforma 2D pixel art, 2º lugar gamejam Big Festival Magalu.",
     images: [
       {
         image: meowch1,
