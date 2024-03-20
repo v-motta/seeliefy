@@ -122,14 +122,9 @@ export const PortfolioJSON = [
         image: hacka20235,
       },
       {
-        image: hacka20232,
-      },
-      {
         image: hacka20234,
       },
-      {
-        image: hacka20233,
-      },
+
       {
         image: hacka20236,
       },
